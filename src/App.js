@@ -6,11 +6,11 @@ function App() {
 
     <div className="App">
         <section className='leftsyd'>
-          <div>
+          <div className='leftCard1'>
             <h1>Sr. React Front-end Developer</h1>
             <p>ABC Company</p>
             <p>Massachusetts</p>
-            <p>Php150,000-Php200,000 per month</p>
+            <p>Php150,000 - Php200,000 per month</p>
             <ul className='list'>
               <li> Flexible working hours</li>
               <li> Work from home</li>
