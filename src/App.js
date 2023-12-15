@@ -6,8 +6,6 @@ function App() {
   const [showCard2, setShowCard2] = useState(false);
   const [showCard3, setShowCard3] = useState(false);
 
-
-
   return (
 
     <div className="App">
@@ -61,7 +59,6 @@ function App() {
           </div>
         </section>
 
-
         <section className='rightsyd'>
           {showCard1 && <div className='rightCard desc1'>
                 <h1 className='rightCard1__h1'>Sr. React Front-end Developer</h1>
@@ -86,7 +83,6 @@ function App() {
                 <p>Work full time from home in Philippine, mostly from 9am to 5pm</p>
             </div>}
             
-
             {showCard2 && <div className='rightCard desc2'>
                 <h1 className='rightCard1__h1'>Full Stack Developer</h1>
                 <p>Techno Company</p>
@@ -150,7 +146,6 @@ function App() {
                   <li>Knowledge of Figma and Adobe range of products including Photoshop, Illustrator, InDesign, Acrobat.</li>
                   <li>Possess strong knowledge of Usability Factors in Human Computer Interaction</li>               
                 </ul>
-
             </div>}
             
         </section>
