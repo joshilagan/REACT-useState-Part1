@@ -17,15 +17,16 @@ body{
 
 .list {
   text-align: start;
-  width: 350px;
+  width: 300px;
 }
 
 .leftCard1 {
   text-align: start;
   border: 5px solid gray;
   border-radius: 10px;
-  width: 410px;
+  width: 350px;
   padding: 20px;
+  margin: 30px 10px;
 }
 
 p {
