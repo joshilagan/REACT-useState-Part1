@@ -60,6 +60,8 @@ function App() {
         </section>
 
         <section className='rightsyd'>
+          {/* use '&&' conditional statement to render the div about job detail
+          whenever the showCard1 variable is true */}
           {showCard1 && <div className='rightCard desc1'>
                 <h1 className='rightCard1__h1'>Sr. React Front-end Developer</h1>
                 <p>ABC Company</p>
